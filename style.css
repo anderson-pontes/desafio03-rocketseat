@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, input, button, select, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #EFEFEF;
+}
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+  }
+
+  .page {
+    width: 750px;
+    margin: auto;
+    
+  }
+
+  header {
+    width: 417px;
+    margin-top: 140px;
+  }
+  
+
+header h1{
+font-family: 'Staatliches', cursive;
+font-size: 48px;
+line-height: 60px;
+color: white;
+margin-bottom: 24px;
+}
+
+h2 {
+  font-family: 'Staatliches', cursive;
+font-size: 20px;
+line-height: 34px;
+font-weight: 400;
+margin-bottom: 24px;
+color: #535971;
+}
+header p {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+form {
+    background: #FFFFFF;
+    margin-top: 58px;
+    border-radius: 8px 8px 0 0;
+    min-height: 300px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+fieldset legend {
+font-family: 'Staatliches', cursive;
+font-size: 24px;
+line-height: 34px;
+color: #535971;
+width: 100%;
+border-bottom: 1px solid #E6E6F0;
+padding-bottom: 16px;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.input-wrapper label {
+margin-bottom: 8px;
+font-size: 14px;
+line-height: 24px;
+
+color: #4E4958;
+}
+.input-wrapper label span {
+margin-left: 12px;
+font-size: 12px;
+line-height: 20px;
+
+color: #C1BCCC;
+}
+.input-wrapper input {
+
+background: #FAFAFC;
+border: 1px solid #E6E6F0;
+border-radius: 8px;
+height: 56px;
+padding: 0 24px;
+font-size: 16px;
+line-height: 26px;
+color: #C1BCCC;
+}
+.name {
+  display: flex;
+  gap: 22px;
+  width: 100%;
+  justify-content: space-between;
+}
+.name > div:nth-child(1),
+    .name > div:nth-child(2) {
+        width: 50%;
+  }
+  .col-3 {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .col-3 > div:nth-child(1) {
+    width: 100%;
+  }
+  .segunda-mentoria {
+    margin-top: 48px;
+  }
+
+  footer {
+    background: #535971;
+    height: 136px;
+    
+    display: flex;
+    flex-direction: column;   
+  
+    padding: 40px 64px;
+  
+    margin-bottom: 100px;
+  
+    border-top: 1px solid #D6D6D6;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  footer .button {
+    height: 56px;
+    background: #FF5374;
+    border: 0;
+    border-radius: 8px;
+  
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+  
+  
+    color: #FFFFFF;
+  }
+  
+  footer .button:hover {
+    background: #770f24;
+  }
